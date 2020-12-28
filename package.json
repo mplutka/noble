@@ -1,20 +1,66 @@
 {
-  "author": "Sandeep Mistry",
-  "maintainers": [
-    "Jacob Rosenthal",
-    "Luis Montes"
-  ],
-  "license": "MIT",
-  "name": "@abandonware/noble",
-  "description": "A Node.js BLE (Bluetooth Low Energy) central library.",
-  "version": "1.9.2-11",
-  "repository": {
+  "_from": "git+https://github.com/mplutka/noble.git",
+  "_id": "@abandonware/noble@1.9.2-10",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/noble",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "https://github.com/abandonware/noble.git"
+    "raw": "noble@git+https://github.com/mplutka/noble.git",
+    "name": "noble",
+    "escapedName": "noble",
+    "rawSpec": "git+https://github.com/mplutka/noble.git",
+    "saveSpec": "git+https://github.com/mplutka/noble.git",
+    "fetchSpec": "https://github.com/mplutka/noble.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/mplutka/noble.git#0fdcd0a671b9bf1c53a3650d591c74990549c46d",
+  "_spec": "noble@git+https://github.com/mplutka/noble.git",
+  "_where": "D:\\Desktop\\hidapi\\tm-bt-led",
+  "author": {
+    "name": "Sandeep Mistry"
+  },
+  "browser": {
+    "./lib/resolve-bindings.js": "./lib/resolve-bindings-web.js"
   },
   "bugs": {
     "url": "https://github.com/abandonware/noble/issues"
   },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-5",
+    "debug": "^4.1.1",
+    "napi-thread-safe-callback": "0.0.6",
+    "node-addon-api": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "A Node.js BLE (Bluetooth Low Energy) central library.",
+  "devDependencies": {
+    "async": "^3.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "install": "^0.13.0",
+    "mocha": "^7.1.0",
+    "node-gyp": "^6.1.0",
+    "prettier": "^1.19.1",
+    "should": "~13.2.3",
+    "sinon": "~9.0.0",
+    "ws": "^7.2.1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/abandonware/noble#readme",
   "keywords": [
     "bluetooth",
     "BLE",
@@ -22,10 +68,19 @@
     "bluetooth smart",
     "central"
   ],
+  "license": "MIT",
   "main": "./index.js",
-  "types": "./index.d.ts",
-  "engines": {
-    "node": ">=6"
+  "maintainers": [
+    {
+      "name": "Jacob Rosenthal"
+    },
+    {
+      "name": "Luis Montes"
+    }
+  ],
+  "name": "@abandonware/noble",
+  "optionalDependencies": {
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-5"
   },
   "os": [
     "darwin",
@@ -33,36 +88,15 @@
     "freebsd",
     "win32"
   ],
-  "dependencies": {
-    "debug": "^4.3.1",
-    "napi-thread-safe-callback": "0.0.6",
-    "node-addon-api": "^3.1.0"
-  },
-  "optionalDependencies": {
-    "@abandonware/bluetooth-hci-socket": "^0.5.3-7"
-  },
-  "devDependencies": {
-    "async": "^3.2.0",
-    "eslint": "^7.18.0",
-    "eslint-config-semistandard": "^15.0.1",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^5.0.0",
-    "install": "^0.13.0",
-    "mocha": "^8.2.1",
-    "node-gyp": "^7.1.2",
-    "prettier": "^2.2.1",
-    "should": "~13.2.3",
-    "sinon": "~9.2.4",
-    "ws": "^7.4.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abandonware/noble.git"
   },
   "scripts": {
+    "install": "node-gyp rebuild",
     "lint": "eslint '**/*.js'",
     "test": "mocha -R spec test/*.js"
   },
-  "browser": {
-    "./lib/resolve-bindings.js": "./lib/resolve-bindings-web.js"
-  }
+  "types": "./index.d.ts",
+  "version": "1.9.2-10"
 }
