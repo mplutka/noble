@@ -79,9 +79,6 @@
     }
   ],
   "name": "@abandonware/noble",
-  "optionalDependencies": {
-    "@abandonware/bluetooth-hci-socket": "^0.5.3-5"
-  },
   "os": [
     "darwin",
     "linux",
