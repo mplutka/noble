@@ -32,7 +32,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "@abandonware/bluetooth-hci-socket": "^0.5.3-5",
+    "bluetooth-hci-socket": "https://github.com/mplutka/node-bluetooth-hci-socket.git",
     "debug": "^4.1.1",
     "napi-thread-safe-callback": "0.0.6",
     "node-addon-api": "^2.0.0"
