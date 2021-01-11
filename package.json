@@ -95,5 +95,5 @@
     "test": "mocha -R spec test/*.js"
   },
   "types": "./index.d.ts",
-  "version": "1.9.2-13"
+  "version": "1.9.2-14"
 }

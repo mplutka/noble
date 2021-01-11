@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Desktop\hidapi\tm-bt-led\node_modules\noble\build\Release\noble.node</FullPath>
+      <FullPath>D:\Desktop\hidapi\repos\noble\build\Release\noble.node</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
