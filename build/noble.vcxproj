@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E9AB3D3B-5AA0-21E6-DDC2-D6D211DCB301}</ProjectGuid>
+    <ProjectGuid>{5F0B4DF2-76AE-BC25-2C8C-CB02BCBA5839}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>noble</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
