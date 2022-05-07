@@ -32,7 +32,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "@abandonware/bluetooth-hci-socket": "git+https://github.com/mplutka/node-bluetooth-hci-socket.git",
+    "@abandonware/bluetooth-hci-socket": "git+https://github.com/mplutka/node-bluetooth-hci-socket.git#0d05da417b90e65b1c2e86aef1740ece2cc6483e",
     "debug": "^4.1.1",
     "napi-thread-safe-callback": "0.0.6",
     "node-addon-api": "^2.0.0"
@@ -40,7 +40,7 @@
   "deprecated": false,
   "description": "A Node.js BLE (Bluetooth Low Energy) central library.",
   "devDependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.3",
     "eslint": "^6.8.0",
     "eslint-config-semistandard": "^15.0.0",
     "eslint-config-standard": "^14.1.0",
@@ -54,7 +54,7 @@
     "prettier": "^1.19.1",
     "should": "~13.2.3",
     "sinon": "~9.0.0",
-    "ws": "^7.2.1"
+    "ws": "^7.5.7"
   },
   "engines": {
     "node": ">=6"
