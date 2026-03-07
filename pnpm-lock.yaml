@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@abandonware/bluetooth-hci-socket':
-        specifier: github:mplutka/node-bluetooth-hci-socket#6f32e4f9f59089df3fb08792d81ee10f6674a876
-        version: https://codeload.github.com/mplutka/node-bluetooth-hci-socket/tar.gz/6f32e4f9f59089df3fb08792d81ee10f6674a876(encoding@0.1.13)
+        specifier: github:mplutka/node-bluetooth-hci-socket#49c2c89a25f0130ff29044abed3dcd7b3933d0e9
+        version: https://codeload.github.com/mplutka/node-bluetooth-hci-socket/tar.gz/49c2c89a25f0130ff29044abed3dcd7b3933d0e9(encoding@0.1.13)
       debug:
         specifier: ^4.1.1
         version: 4.4.3
@@ -69,8 +69,8 @@ importers:
 
 packages:
 
-  '@abandonware/bluetooth-hci-socket@https://codeload.github.com/mplutka/node-bluetooth-hci-socket/tar.gz/6f32e4f9f59089df3fb08792d81ee10f6674a876':
-    resolution: {tarball: https://codeload.github.com/mplutka/node-bluetooth-hci-socket/tar.gz/6f32e4f9f59089df3fb08792d81ee10f6674a876}
+  '@abandonware/bluetooth-hci-socket@https://codeload.github.com/mplutka/node-bluetooth-hci-socket/tar.gz/49c2c89a25f0130ff29044abed3dcd7b3933d0e9':
+    resolution: {tarball: https://codeload.github.com/mplutka/node-bluetooth-hci-socket/tar.gz/49c2c89a25f0130ff29044abed3dcd7b3933d0e9}
     version: 0.5.3-10
     os: [linux, android, freebsd, win32]
 
@@ -1767,7 +1767,7 @@ packages:
 
 snapshots:
 
-  '@abandonware/bluetooth-hci-socket@https://codeload.github.com/mplutka/node-bluetooth-hci-socket/tar.gz/6f32e4f9f59089df3fb08792d81ee10f6674a876(encoding@0.1.13)':
+  '@abandonware/bluetooth-hci-socket@https://codeload.github.com/mplutka/node-bluetooth-hci-socket/tar.gz/49c2c89a25f0130ff29044abed3dcd7b3933d0e9(encoding@0.1.13)':
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.11(encoding@0.1.13)
       debug: 4.4.3
