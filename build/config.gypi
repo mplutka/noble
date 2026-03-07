@@ -6,7 +6,7 @@
     "defines": [],
     "include_dirs": [],
     "libraries": [],
-    "msbuild_toolset": "v145",
+    "msbuild_toolset": "v143",
     "msvs_windows_target_platform_version": "10.0.26100.0"
   },
   "variables": {
@@ -429,15 +429,17 @@
     "nodedir": "C:\\Users\\Markus\\AppData\\Local\\node-gyp\\Cache\\20.20.1",
     "python": "C:\\Users\\Markus\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
     "standalone_static_library": 1,
-    "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe",
-    "_jsr_registry": "https://npm.jsr.io/",
-    "verify_deps_before_run": "false",
-    "user_agent": "pnpm/10.30.3 npm/? node/v20.20.1 win32 x64",
-    "registry": "https://registry.npmjs.org/",
-    "npm_globalconfig": "C:\\Program Files\\nodejs\\etc\\npmrc",
+    "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe",
+    "user_agent": "npm/10.8.2 node/v20.20.1 win32 x64 workspaces/false",
+    "userconfig": "C:\\Users\\Markus\\.npmrc",
+    "prefix": "C:\\Users\\Markus\\AppData\\Roaming\\npm",
+    "npm_version": "10.8.2",
     "node_linker": "hoisted",
-    "node_gyp": "C:\\Users\\Markus\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\node_modules\\node-gyp\\bin\\node-gyp.js",
-    "globalconfig": "C:\\Users\\Markus\\AppData\\Local\\pnpm\\config\\rc",
-    "frozen_lockfile": ""
+    "node_gyp": "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "local_prefix": "C:\\Users\\Markus\\Documents\\TMBTLED\\repos\\noble",
+    "init_module": "C:\\Users\\Markus\\.npm-init.js",
+    "global_prefix": "C:\\Users\\Markus\\AppData\\Roaming\\npm",
+    "globalconfig": "C:\\Users\\Markus\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "cache": "C:\\Users\\Markus\\AppData\\Local\\npm-cache"
   }
 }

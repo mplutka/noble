@@ -1,3 +1,0 @@
-onlyBuiltDependencies:
-  - '@abandonware/bluetooth-hci-socket'
-  - usb
