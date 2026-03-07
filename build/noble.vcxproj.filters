@@ -2,36 +2,42 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="C:">
-      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+      <UniqueIdentifier>{F87FD356-0FEB-9BC5-D1FA-368C81420008}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Program Files">
-      <UniqueIdentifier>{92EF4BA8-6BC2-65D1-451F-28EBD4AE726A}</UniqueIdentifier>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{707347A1-1ABA-A9B2-9AF4-DE122F5D7F08}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Program Files\nodejs">
-      <UniqueIdentifier>{A3C8E949-BCF6-0C67-6656-340A2A097708}</UniqueIdentifier>
+    <Filter Include="C:\Users\Markus">
+      <UniqueIdentifier>{89114D21-40DF-CF59-5C4C-FA19389BC4ED}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Program Files\nodejs\node_modules">
-      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    <Filter Include="C:\Users\Markus\Documents">
+      <UniqueIdentifier>{A6B140C2-EC61-188F-22F2-AD1FFCF65561}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Program Files\nodejs\node_modules\npm">
-      <UniqueIdentifier>{741E0E76-39B2-B1AB-9FA1-F1A20B16F295}</UniqueIdentifier>
+    <Filter Include="C:\Users\Markus\Documents\TMBTLED">
+      <UniqueIdentifier>{A9F01026-71A9-1CA8-8239-C2FAA3E240F4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Program Files\nodejs\node_modules\npm\node_modules">
-      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    <Filter Include="C:\Users\Markus\Documents\TMBTLED\repos">
+      <UniqueIdentifier>{9681BACF-4CD2-FFFA-0CEF-21F5B8B18661}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp">
-      <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
+    <Filter Include="C:\Users\Markus\Documents\TMBTLED\repos\noble">
+      <UniqueIdentifier>{A1DFDDE7-64C4-FCB6-20F8-3DE8100672C6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\src">
-      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    <Filter Include="C:\Users\Markus\Documents\TMBTLED\repos\noble\node_modules">
+      <UniqueIdentifier>{126A39EA-1D28-5689-C126-0DA0AB5837A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Markus\Documents\TMBTLED\repos\noble\node_modules\node-gyp">
+      <UniqueIdentifier>{49558BB4-6D34-CA91-A65D-85A65792DC11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\Markus\Documents\TMBTLED\repos\noble\node_modules\node-gyp\src">
+      <UniqueIdentifier>{F1003AD6-4B6D-45DF-3F56-5CAC869BF55E}</UniqueIdentifier>
     </Filter>
     <Filter Include="..">
-      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+      <UniqueIdentifier>{13ED4249-1F9C-5F0F-2651-29A73F3A7059}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">
-      <Filter>C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\src</Filter>
+    <ClCompile Include="C:\Users\Markus\Documents\TMBTLED\repos\noble\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\Markus\Documents\TMBTLED\repos\noble\node_modules\node-gyp\src</Filter>
     </ClCompile>
     <None Include="..\binding.gyp">
       <Filter>..</Filter>

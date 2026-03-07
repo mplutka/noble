@@ -32,7 +32,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "@abandonware/bluetooth-hci-socket": "git+https://github.com/mplutka/node-bluetooth-hci-socket.git#2906553d770143857857fabe719f7358bec8d3da",
+    "@abandonware/bluetooth-hci-socket": "0.5.3-12",
     "debug": "^4.1.1",
     "napi-thread-safe-callback": "0.0.6",
     "node-addon-api": "^2.0.0"
@@ -50,7 +50,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "install": "^0.13.0",
     "mocha": "^7.1.0",
-    "node-gyp": "^6.1.0",
+    "node-gyp": "^12.2.0",
     "prettier": "^1.19.1",
     "should": "~13.2.3",
     "sinon": "~9.0.0",
