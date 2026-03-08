@@ -30,9 +30,9 @@
   "bugs": {
     "url": "https://github.com/abandonware/noble/issues"
   },
-  "bundleDependencies": [],
+  "bundleDependencies": false,
   "dependencies": {
-    "@abandonware/bluetooth-hci-socket": "^0.5.3-12",
+    "@abandonware/bluetooth-hci-socket": "github:mplutka/node-bluetooth-hci-socket#49c2c89a25f0130ff29044abed3dcd7b3933d0e9",
     "debug": "^4.1.1",
     "napi-thread-safe-callback": "0.0.6",
     "node-addon-api": "^2.0.0"
